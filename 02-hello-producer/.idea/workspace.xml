@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82780788-e282-40d8-95e0-bd30bb9761cc" name="Default Changelist" comment="" />
+    <list default="true" id="82780788-e282-40d8-95e0-bd30bb9761cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/consumer-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/topic-delete.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/zookeepershell.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/HelloProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/topic-create.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/topic-create.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/zookeeper-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/zookeeper-start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/AppConfigs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/learningjournal/kafka/examples/AppConfigs.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -30,20 +44,19 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
-    <option name="y" value="45" />
-    <option name="width" value="1690" />
-    <option name="height" value="845" />
-  </component>
   <component name="ProjectId" id="1aXwafFBqE058uzg7wFl4ZIlZ04" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -55,10 +68,10 @@
       <recent name="C:\Udemy\FinalProjects\02-hello-producer" />
     </key>
   </component>
-  <component name="RunManager" selected="Batch.consumer-start">
+  <component name="RunManager" selected="Shell Script.consumer-start.sh">
     <configuration name="HelloProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.learningjournal.kafka.examples.HelloProducer" />
-      <module name="hello-producer" />
+      <module name="02-hello-producer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="guru.learningjournal.kafka.examples.*" />
@@ -69,57 +82,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="1-kafka-server-start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="hello-producer" />
+    <configuration name="1-kafka-server-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/1-kafka-server-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Udemy\StarterProject\02-hello-producer\scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="1-kafka-server-start.cmd" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="2-kafka-server-start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="hello-producer" />
+    <configuration name="2-kafka-server-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/2-kafka-server-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Udemy\StarterProject\02-hello-producer\scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="2-kafka-server-start.cmd" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="consumer-start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="hello-producer" />
+    <configuration name="consumer-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/consumer-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Udemy\StarterProject\02-hello-producer\scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="consumer-start.cmd" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="topic-create" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="hello-producer" />
+    <configuration name="topic-create.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/topic-create.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Udemy\StarterProject\02-hello-producer\scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="topic-create.cmd" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Batch.consumer-start" />
+        <item itemvalue="Shell Script.consumer-start.sh" />
         <item itemvalue="Application.HelloProducer" />
-        <item itemvalue="Batch.topic-create" />
-        <item itemvalue="Batch.2-kafka-server-start" />
-        <item itemvalue="Batch.1-kafka-server-start" />
+        <item itemvalue="Shell Script.topic-create.sh" />
+        <item itemvalue="Shell Script.2-kafka-server-start.sh" />
+        <item itemvalue="Shell Script.1-kafka-server-start.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -135,5 +136,27 @@
       <updated>1562846696107</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586896463263">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="488" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.815@0.23.1440.815" timestamp="1586896463263" />
+    <state width="1376" height="209" key="GridCell.Tab.0.bottom" timestamp="1586899825131">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1376" height="209" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1586899825131" />
+    <state width="1376" height="209" key="GridCell.Tab.0.center" timestamp="1586899825130">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1376" height="209" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1586899825130" />
+    <state width="1376" height="209" key="GridCell.Tab.0.left" timestamp="1586899825129">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1376" height="209" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1586899825129" />
+    <state width="1376" height="209" key="GridCell.Tab.0.right" timestamp="1586899825130">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1376" height="209" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1586899825130" />
   </component>
 </project>

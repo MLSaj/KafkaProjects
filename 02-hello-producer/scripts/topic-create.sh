@@ -1,1 +1,1 @@
-/Users/sajeedbakht/Documents/kafka23/bin/kafka-topics.sh --create --zookeeper localhost:2181 --topic hello-producer-topic --partitions 5 --replication-factor 3
+/Users/sajeedbakht/Documents/kafka23/bin/kafka-topics.sh --create --zookeeper localhost:2181 --topic hello-producer-topic-1 --partitions 5 --replication-factor 3

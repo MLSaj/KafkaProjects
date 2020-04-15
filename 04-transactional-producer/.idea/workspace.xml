@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb27d8ae-e95b-412d-96cf-000cce6ea5d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aartajK1mf5EnHPvKkWqICGF2V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Udemy\StarterProject\04-transactional-producer" />
+      <recent name="C:\Udemy\StarterProject\04-transactional-producer\src\main\java\guru\learningjournal\kafka\examples" />
+      <recent name="C:\Udemy\StarterProject\04-transactional-producer\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Shell Script.consumer-start.sh">
+    <configuration name="HelloProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guru.learningjournal.kafka.examples.HelloProducer" />
+      <module name="04-transactional-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.learningjournal.kafka.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2-kafka-server-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/2-kafka-server-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="consumer-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/consumer-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="topic-create-2.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/topic-create-2.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="topic-create.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/topic-create.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.consumer-start.sh" />
+        <item itemvalue="Application.HelloProducer" />
+        <item itemvalue="Shell Script.topic-create-2.sh" />
+        <item itemvalue="Shell Script.topic-create.sh" />
+        <item itemvalue="Shell Script.2-kafka-server-start.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb27d8ae-e95b-412d-96cf-000cce6ea5d8" name="Default Changelist" comment="" />
+      <created>1563088116144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563088116144</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586985082335">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="432" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.815@0.23.1440.815" timestamp="1586985082335" />
+    <state x="555" y="329" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586984775561">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="555" y="329" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.815@0.23.1440.815" timestamp="1586984775561" />
+    <state width="1358" height="204" key="GridCell.Tab.0.bottom" timestamp="1586988166671">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1358" height="204" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1586988166671" />
+    <state width="1358" height="204" key="GridCell.Tab.0.center" timestamp="1586988166671">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1358" height="204" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1586988166671" />
+    <state width="1358" height="204" key="GridCell.Tab.0.left" timestamp="1586988166670">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1358" height="204" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1586988166670" />
+    <state width="1358" height="204" key="GridCell.Tab.0.right" timestamp="1586988166671">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1358" height="204" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1586988166671" />
+    <state x="384" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1586988366319">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="384" y="162" width="670" height="676" key="search.everywhere.popup/0.23.1440.815@0.23.1440.815" timestamp="1586988366319" />
+  </component>
+</project>

@@ -8,37 +8,42 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Properties;
+import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class PosSimulator {
     private static final Logger logger = LogManager.getLogger();
 
+
     public static void main(String[] args) {
-        if (args.length < 3) {
-            System.out.println("Please provide command line arguments: topicName noOfProducers produceSpeed");
+        if(args.length < 3){
+            System.out.println("Please supply 3 arguments");
             System.exit(-1);
         }
+
         String topicName = args[0];
-        int noOfProducers = new Integer(args[1]);
-        int produceSpeed = new Integer(args[2]);
+        int num_of_threads = new Integer(args[1]);
+        int produce_speed = new Integer(args[2]);
 
-        Properties properties = new Properties();
-        properties.put(ProducerConfig.CLIENT_ID_CONFIG, AppConfigs.applicationID);
-        properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, AppConfigs.bootstrapServers);
-        properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-        properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
 
-        KafkaProducer<String, PosInvoice> kafkaProducer = new KafkaProducer<>(properties);
-        ExecutorService executor = Executors.newFixedThreadPool(noOfProducers);
+        Properties props = new Properties();
+        props.put(ProducerConfig.CLIENT_ID_CONFIG,AppsConfig.applicationId);
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,AppsConfig.bootstrapServers);
+        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
+        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
+
+        KafkaProducer<String, PosInvoice> kafkaProducer = new KafkaProducer<String, PosInvoice>(props);
+        ExecutorService executor = Executors.newFixedThreadPool(num_of_threads);
+
         final List<RunnableProducer> runnableProducers = new ArrayList<>();
 
-        for (int i = 0; i < noOfProducers; i++) {
-            RunnableProducer runnableProducer = new RunnableProducer(i, kafkaProducer, topicName, produceSpeed);
+        for(int i = 0; i < num_of_threads; i++){
+            RunnableProducer runnableProducer = new RunnableProducer(kafkaProducer,topicName,produce_speed,i);
             runnableProducers.add(runnableProducer);
             executor.submit(runnableProducer);
         }
@@ -48,11 +53,15 @@ public class PosSimulator {
             executor.shutdown();
             logger.info("Closing Executor Service");
             try {
-                executor.awaitTermination(produceSpeed * 2, TimeUnit.MILLISECONDS);
+                executor.awaitTermination(produce_speed * 2, TimeUnit.MILLISECONDS);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
         }));
 
+
+
+
     }
+
 }

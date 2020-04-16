@@ -11,7 +11,8 @@
     <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,7 +31,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1aMNXtE8qflc3N0r6NsUCWPuNhF" />
+  <component name="ProjectId" id="1abP65ipf6n3Zpr3jLqMgsk9bOS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,11 +50,11 @@
       <recent name="C:\Udemy\StarterProject\pos-simulator\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PosSimulator">
+  <component name="RunManager" selected="Shell Script.consumer-start.sh">
     <configuration name="PosSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.learningjournal.kafka.examples.PosSimulator" />
       <module name="05-pos-simulator" />
-      <option name="PROGRAM_PARAMETERS" value="pos 3 100" />
+      <option name="PROGRAM_PARAMETERS" value="pos 3 50" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="guru.learningjournal.kafka.examples.*" />
@@ -64,64 +65,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="create-topic" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="pos-simulator" />
+    <configuration name="1-kafka-server-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/1-kafka-server-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Udemy\FinalProjects\pos-simulator\scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="create-topic.cmd" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="start-consumer" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="pos-simulator" />
+    <configuration name="2-kafka-server-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/2-kafka-server-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Udemy\FinalProjects\pos-simulator\scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="start-consumer.cmd" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="start-kafka-server-1" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="pos-simulator" />
+    <configuration name="consumer-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/consumer-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Udemy\FinalProjects\pos-simulator\scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="start-kafka-server-1.cmd" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="start-kafka-server-2" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="pos-simulator" />
+    <configuration name="topic-create.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/topic-create.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Udemy\FinalProjects\pos-simulator\scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="start-kafka-server-2.cmd" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Application.PosSimulator" />
-      <item itemvalue="Batch.create-topic" />
-      <item itemvalue="Batch.start-kafka-server-1" />
-      <item itemvalue="Batch.start-kafka-server-2" />
-      <item itemvalue="Batch.start-consumer" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.consumer-start.sh" />
         <item itemvalue="Application.PosSimulator" />
-        <item itemvalue="Batch.start-consumer" />
-        <item itemvalue="Batch.create-topic" />
-        <item itemvalue="Batch.start-kafka-server-2" />
-        <item itemvalue="Batch.start-kafka-server-1" />
+        <item itemvalue="Shell Script.topic-create.sh" />
+        <item itemvalue="Shell Script.2-kafka-server-start.sh" />
+        <item itemvalue="Shell Script.1-kafka-server-start.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -139,29 +121,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="383" y="67" key="#PosSimulator" timestamp="1586652366337">
+    <state x="580" y="112" key="#PosSimulator" timestamp="1587006476787">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state x="383" y="67" key="#PosSimulator/0.23.1440.815@0.23.1440.815" timestamp="1586652366337" />
-    <state x="574" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586541573716">
+    <state x="580" y="112" key="#PosSimulator/0.23.1440.815@0.23.1440.815" timestamp="1587006476787" />
+    <state x="663" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1587001418359">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state x="574" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.815@0.23.1440.815" timestamp="1586541573716" />
-    <state width="1358" height="184" key="GridCell.Tab.0.bottom" timestamp="1586652433402">
+    <state x="663" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.815@0.23.1440.815" timestamp="1587001418359" />
+    <state x="491" y="320" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587001228757">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1358" height="184" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1586652433402" />
-    <state width="1358" height="184" key="GridCell.Tab.0.center" timestamp="1586652433401">
+    <state x="491" y="320" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.815@0.23.1440.815" timestamp="1587001228757" />
+    <state width="1358" height="204" key="GridCell.Tab.0.bottom" timestamp="1587006544059">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1358" height="184" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1586652433401" />
-    <state width="1358" height="184" key="GridCell.Tab.0.left" timestamp="1586652433401">
+    <state width="1358" height="204" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1587006544059" />
+    <state width="1358" height="204" key="GridCell.Tab.0.center" timestamp="1587006544058">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1358" height="184" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1586652433401" />
-    <state width="1358" height="184" key="GridCell.Tab.0.right" timestamp="1586652433402">
+    <state width="1358" height="204" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1587006544058" />
+    <state width="1358" height="204" key="GridCell.Tab.0.left" timestamp="1587006544057">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1358" height="184" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1586652433402" />
+    <state width="1358" height="204" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1587006544057" />
+    <state width="1358" height="204" key="GridCell.Tab.0.right" timestamp="1587006544059">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state width="1358" height="204" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1587006544059" />
   </component>
 </project>

@@ -1,7 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f907381d-0102-4801-9a67-956ed324c63b" name="Default Changelist" comment="" />
+    <list default="true" id="f907381d-0102-4801-9a67-956ed324c63b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-pos-validator/09-pos-validator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-pos-validator/src/main/java/guru/learningjournal/kafka/examples/PosValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../09-pos-validator/scripts/invalid-pos-consumer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../09-pos-validator/scripts/invalid-pos-topic-create.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/../09-pos-validator/scripts/valid-pos-consumer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../09-pos-validator/scripts/valid-pos-topic-create.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/cleaner-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/log-start-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/meta.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/recovery-point-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/replication-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/cleaner-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/log-start-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/meta.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/recovery-point-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/replication-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/cleaner-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/log-start-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/meta.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.timeindex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/leader-epoch-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/recovery-point-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/replication-offset-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/zookeeper-data/version-2/log.1" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -32,12 +132,16 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1abP65ipf6n3Zpr3jLqMgsk9bOS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -50,11 +154,11 @@
       <recent name="C:\Udemy\StarterProject\pos-simulator\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.consumer-start.sh">
+  <component name="RunManager" selected="Application.PosSimulator">
     <configuration name="PosSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.learningjournal.kafka.examples.PosSimulator" />
       <module name="05-pos-simulator" />
-      <option name="PROGRAM_PARAMETERS" value="pos 3 50" />
+      <option name="PROGRAM_PARAMETERS" value="pos 2 2000" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="guru.learningjournal.kafka.examples.*" />
@@ -64,6 +168,14 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="0-kafka-server-start.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/0-kafka-server-start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="1-kafka-server-start.sh" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/1-kafka-server-start.sh" />
@@ -81,14 +193,6 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="consumer-start.sh" type="ShConfigurationType" temporary="true">
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/consumer-start.sh" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="topic-create.sh" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/topic-create.sh" />
       <option name="SCRIPT_OPTIONS" value="" />
@@ -99,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Shell Script.consumer-start.sh" />
         <item itemvalue="Application.PosSimulator" />
         <item itemvalue="Shell Script.topic-create.sh" />
         <item itemvalue="Shell Script.2-kafka-server-start.sh" />
         <item itemvalue="Shell Script.1-kafka-server-start.sh" />
+        <item itemvalue="Shell Script.0-kafka-server-start.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -121,10 +225,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="112" key="#PosSimulator" timestamp="1587006476787">
+    <state x="580" y="112" key="#PosSimulator" timestamp="1587063938249">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state x="580" y="112" key="#PosSimulator/0.23.1440.815@0.23.1440.815" timestamp="1587006476787" />
+    <state x="580" y="112" key="#PosSimulator/0.23.1440.815@0.23.1440.815" timestamp="1587063938249" />
     <state x="663" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1587001418359">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
@@ -133,21 +237,21 @@
       <screen x="0" y="23" width="1440" height="815" />
     </state>
     <state x="491" y="320" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.815@0.23.1440.815" timestamp="1587001228757" />
-    <state width="1358" height="204" key="GridCell.Tab.0.bottom" timestamp="1587006544059">
+    <state width="1358" height="204" key="GridCell.Tab.0.bottom" timestamp="1587064543976">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1358" height="204" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1587006544059" />
-    <state width="1358" height="204" key="GridCell.Tab.0.center" timestamp="1587006544058">
+    <state width="1358" height="204" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1587064543976" />
+    <state width="1358" height="204" key="GridCell.Tab.0.center" timestamp="1587064543975">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1358" height="204" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1587006544058" />
-    <state width="1358" height="204" key="GridCell.Tab.0.left" timestamp="1587006544057">
+    <state width="1358" height="204" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1587064543975" />
+    <state width="1358" height="204" key="GridCell.Tab.0.left" timestamp="1587064543974">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1358" height="204" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1587006544057" />
-    <state width="1358" height="204" key="GridCell.Tab.0.right" timestamp="1587006544059">
+    <state width="1358" height="204" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1587064543974" />
+    <state width="1358" height="204" key="GridCell.Tab.0.right" timestamp="1587064543975">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
-    <state width="1358" height="204" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1587006544059" />
+    <state width="1358" height="204" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1587064543975" />
   </component>
 </project>

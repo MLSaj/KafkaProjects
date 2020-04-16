@@ -1,8 +1,14 @@
 0
-6
-pos 1 4415
-pos 2 4415
-__consumer_offsets 2 0
-__consumer_offsets 0 0
-pos 0 4415
+12
+valid-pos 2 238
+invalid-pos 1 6
+pos 1 193
+pos 2 193
+valid-pos 1 206
+valid-pos 0 123
+invalid-pos 2 3
+__consumer_offsets 2 2
+__consumer_offsets 0 157
+pos 0 194
 __consumer_offsets 1 2
+invalid-pos 0 4

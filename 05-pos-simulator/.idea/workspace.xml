@@ -2,102 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f907381d-0102-4801-9a67-956ed324c63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09-pos-validator/09-pos-validator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../09-pos-validator/src/main/java/guru/learningjournal/kafka/examples/PosValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/.kafka_cleanshutdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000006704.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000003.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000003.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-0/00000000000000000004.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-1/00000000000000000006.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-2/00000000000000000003.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000194.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000193.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000193.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-0/00000000000000000123.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-1/00000000000000000206.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-2/00000000000000000238.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/10-hello-streams.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/scripts/0-kafka-server-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/scripts/1-kafka-server-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/scripts/2-kafka-server-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/scripts/topic-create.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/scripts/zookeeper-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/src/main/java/guru/learningjournal/kafka/examples/HelloStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-3/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-3/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-3/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-3/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-4/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-4/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-4/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/hello-producer-topic-4/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-0/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-3/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-3/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-3/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-3/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-4/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-4/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-4/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/hello-producer-topic-4/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-1/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-3/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-3/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-3/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-3/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-4/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-4/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-4/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/hello-producer-topic-4/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/kafka-log-2/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/tmp/zookeeper-data/version-2/log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/windows-streams/0-kafka-server-start.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/windows-streams/1-kafka-server-start.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/windows-streams/2-kafka-server-start.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/windows-streams/topic-create.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-hello-streams/windows-streams/zookeeper-start.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../09-pos-validator/scripts/invalid-pos-consumer.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../09-pos-validator/scripts/invalid-pos-topic-create.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/../09-pos-validator/scripts/valid-pos-consumer.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../09-pos-validator/scripts/valid-pos-topic-create.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/cleaner-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/log-start-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/meta.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-0/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-0/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-0/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-0/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-1/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-1/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-1/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-1/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-2/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-2/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-2/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/pos-2/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/recovery-point-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/replication-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/cleaner-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/log-start-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/meta.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-0/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-0/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-0/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-0/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-1/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-1/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-1/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-1/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-2/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-2/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-2/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/pos-2/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/recovery-point-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/replication-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/cleaner-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/log-start-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/meta.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/recovery-point-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/replication-offset-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/zookeeper-data/version-2/log.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-0/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-0/replication-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-0/replication-offset-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-0/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-1/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-1/__consumer_offsets-2/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-1/replication-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-1/replication-offset-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-0/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-0/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-0/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-0/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-0/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-1/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-1/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-1/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-1/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-2/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-2/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-2/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/invalid-pos-2/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-0/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-1/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/pos-2/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/recovery-point-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/recovery-point-offset-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/replication-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/replication-offset-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-0/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-0/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-0/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-0/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-1/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-1/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-1/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-1/00000000000000000000.timeindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-2/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-2/00000000000000000000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-2/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/kafka-log-2/valid-pos-2/00000000000000000000.timeindex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

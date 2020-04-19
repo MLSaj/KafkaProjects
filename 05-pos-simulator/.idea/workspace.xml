@@ -2,12 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f907381d-0102-4801-9a67-956ed324c63b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-0/__consumer_offsets-1/00000000000000000000.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-0/__consumer_offsets-2/00000000000000000000.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-0/replication-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-0/replication-offset-checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-2/__consumer_offsets-1/00000000000000000000.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-2/__consumer_offsets-2/00000000000000000000.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-2/replication-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/../11-pos-fanout/tmp/kafka-log-2/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/pos-simulator-avro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/scripts/0-kafka-server-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/scripts/1-kafka-server-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/scripts/2-kafka-server-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/scripts/consumer-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/scripts/start-schema-registry.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/scripts/topic-create.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/scripts/zookeeper-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/AppsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/PosSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/RunnableProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/datagenerator/AddressGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/datagenerator/InvoiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/datagenerator/ProductGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/types/DeliveryAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/types/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/java/guru/learningjournal/kafka/examples/types/PosInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/resources/data/Invoice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/resources/data/address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/resources/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/resources/schema/DeliveryAddress.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/resources/schema/LineItem.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/src/main/resources/schema/PosInvoice.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/_schemas-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/_schemas-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/_schemas-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/_schemas-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/pos-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-0/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/__confluent.support.metrics-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/__confluent.support.metrics-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/__confluent.support.metrics-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/__confluent.support.metrics-0/00000000000000000001.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/__confluent.support.metrics-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/_schemas-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/_schemas-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/_schemas-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/_schemas-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/pos-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-1/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/_schemas-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/_schemas-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/_schemas-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/_schemas-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/pos-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/kafka-log-2/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/zookeeper-data/version-2/log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos-simulator-avro/tmp/zookeeper-data/version-2/log.5f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +155,7 @@
       <recent name="guru.learningjournal.kafka.examples.serde" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Udemy\StarterProject\pos-simulator\src\main\java\guru\learningjournal\kafka\examples" />
       <recent name="C:\Udemy\StarterProject\pos-simulator" />
       <recent name="C:\Udemy\StarterProject\pos-simulator\src\main\resources" />

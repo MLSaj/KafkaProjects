@@ -43,7 +43,8 @@ public class RewardsApp {
 
 
 
-        KS0.transformValues(() -> new RewardsTransformer(),AppConfigs.REWARDS_STORE_NAME)
+        KS0.through(AppConfigs.REWARDS_TEMP_TOPIC,Produced.with(AppSerdes.String(),AppSerdes.PosInvoice(),new RewardsPartitioner()))
+                .transformValues(() -> new RewardsTransformer(),AppConfigs.REWARDS_STORE_NAME)
                 .to(AppConfigs.notificationTopic,
                         Produced.with(AppSerdes.String(),AppSerdes.Notification()));
 

@@ -1,8 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e04e0b8-e814-4d7b-9215-53700282388a" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9e04e0b8-e814-4d7b-9215-53700282388a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../23-ktable-aggregate/23-ktable-aggregate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-counting-window/24-counting-window.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-counting-window/scripts/1-start-kafka-cluster-container.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-counting-window/scripts/2-create-topic.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-counting-window/scripts/3-start-producer.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-counting-window/src/main/java/guru/learningjournal/kafka/examples/InvoiceTimeExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27-session-window/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/28-window-supress.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/dictionaries/prashant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28-window-supress/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_apache_kafka_connect_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_apache_kafka_connect_json_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-ktable-join/ktable-join.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_apache_kafka_connect_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_apache_kafka_connect_json_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../31-kstream-gktable-join/kstream-gktable-join.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_apache_kafka_connect_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_apache_kafka_connect_json_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/src/main/java/guru/learningjournal/kafka/examples/Top3NewsTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/src/main/java/guru/learningjournal/kafka/examples/types/ClicksByNewsType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/src/main/resources/schema/ClicksByNewsType.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../32-top3-news/top3-news.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/34-topology-test.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +146,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1U1Fx0Y0KotscnuJla8a6qv2ejb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -48,18 +167,6 @@
       <recent name="C:\Udemy\StarterProject\34-topology-test\src\main\resources" />
       <recent name="C:\Udemy\StarterProject\34-topology-test" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.AppTopologyTest">
     <configuration name="AdvertCTRDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -133,21 +240,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@71e3b79c" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -160,5 +252,11 @@
       <updated>1574516436304</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="326" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587835944158">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="533" y="326" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.813@0.23.1440.813" timestamp="1587835944158" />
   </component>
 </project>
